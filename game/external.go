@@ -1,7 +1,7 @@
 package game
 
 import (
-	"github.com/name5566/leafserver/game/internal"
+	"github.com/madslick/gameserver-prototype/game/internal"
 )
 
 var (

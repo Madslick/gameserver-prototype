@@ -2,9 +2,9 @@ package internal
 
 import (
 	"github.com/name5566/leaf/gate"
-	"github.com/name5566/leafserver/game/internal/objects"
+	"github.com/madslick/gameserver-prototype/game/internal/objects"
 	"github.com/name5566/leaf/log"
-	"github.com/name5566/leafserver/msg"
+	"github.com/madslick/gameserver-prototype/msg"
 
 	"fmt"
 )

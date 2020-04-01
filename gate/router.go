@@ -1,11 +1,10 @@
 package gate
 
 import (
-    "github.com/name5566/leafserver/game"
-    "github.com/name5566/leafserver/msg"
+	"github.com/madslick/gameserver-prototype/game"
+	"github.com/madslick/gameserver-prototype/msg"
 )
 
-
 func init() {
-    msg.Processor.SetRouter(&msg.Hello{}, game.ChanRPC)
+	msg.Processor.SetRouter(&msg.Hello{}, game.ChanRPC)
 }

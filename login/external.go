@@ -1,7 +1,7 @@
 package login
 
 import (
-	"github.com/name5566/leafserver/login/internal"
+	"github.com/madslick/gameserver-prototype/login/internal"
 )
 
 var (

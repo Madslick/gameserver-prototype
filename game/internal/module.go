@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/name5566/leaf/module"
-	"github.com/name5566/leafserver/base"
+	"github.com/madslick/gameserver-prototype/base"
 )
 
 var (

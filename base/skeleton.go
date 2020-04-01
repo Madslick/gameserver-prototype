@@ -3,7 +3,7 @@ package base
 import (
 	"github.com/name5566/leaf/chanrpc"
 	"github.com/name5566/leaf/module"
-	"github.com/name5566/leafserver/conf"
+	"github.com/madslick/gameserver-prototype/conf"
 )
 
 func NewSkeleton() *module.Skeleton {

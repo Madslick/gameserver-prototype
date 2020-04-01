@@ -2,8 +2,9 @@ package conf
 
 import (
 	"encoding/json"
-	"github.com/name5566/leaf/log"
 	"io/ioutil"
+
+	"github.com/name5566/leaf/log"
 )
 
 var Server struct {
@@ -19,11 +20,11 @@ var Server struct {
 }
 
 func init() {
-	data, err := ioutil.ReadFile("/root/go/src/github.com/name5566/leafserver/conf/server.json")
+	data, err := ioutil.ReadFile("/root/go/src/github.com/madslick/gameserver-prototype/conf/server.json")
 	if err != nil {
 		log.Fatal("%v", err)
 	}
-	
+
 	err = json.Unmarshal(data, &Server)
 
 	if err != nil {

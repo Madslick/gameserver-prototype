@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/madslick/gameserver-prototype/conf"
+	"github.com/madslick/gameserver-prototype/game"
+	"github.com/madslick/gameserver-prototype/gate"
+	"github.com/madslick/gameserver-prototype/login"
 	"github.com/name5566/leaf"
 	lconf "github.com/name5566/leaf/conf"
-	"github.com/name5566/leafserver/conf"
-	"github.com/name5566/leafserver/game"
-	"github.com/name5566/leafserver/gate"
-	"github.com/name5566/leafserver/login"
 )
 
 func main() {
